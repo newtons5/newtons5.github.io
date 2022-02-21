@@ -1,0 +1,135 @@
+.logo {
+	width: 110px;
+	float: left;
+}
+
+
+
+/* Header Rectangle */
+.rect {
+	height: 100px;
+	width: 100%;
+	background: #ADADAD;
+	float: rigth;
+	margin: right auto;
+}
+
+
+
+/* Title animation */
+.typew {
+	margin: 0 auto;
+	position: relative;
+	top: 18%;
+	text-decoration-line: underline;
+	font-family: monospace, times;
+	color: black;
+	display: block;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 18ch;
+
+
+	animation: typing 2s steps(16),
+	blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+
+
+/* Title animation */
+.typewSocial {
+	margin: 0 auto;
+	position: relative;
+	top: 18%;
+	text-decoration-line: underline;
+	font-family: monospace, times;
+	color: black;
+	display: block;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 17ch;
+
+
+	animation: typing 2s steps(16),
+	blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+
+
+/* Keyframes por title animations */
+@keyframes typing {
+	from{width: 0}
+}
+
+@keyframes blink {
+	50% {border-color: transparent;}
+}
+
+
+/* Navigation Class */
+.nav{
+	margin: 0 auto;
+	position: relative;
+	top: 30%;
+	font-family: monospace, times;
+	padding: 5px;
+	}
+
+
+
+/* Css anchor general */
+a{ 
+	text-decoration: underline; 
+	color:black; 
+}
+
+a:visited{ 
+	text-decoration: underline; 
+	color:black; 
+}
+
+a:hover{ 
+	text-decoration: none; 
+	color:black; 
+}
+
+
+
+/* Css anchor social class */
+a.social{
+	text-decoration: none; 
+	color: red;
+}
+
+a.social:hover{
+	text-decoration: underline; 
+	color: red;
+}
+
+
+/* Block of text 1 */
+.block1{
+	margin: 20px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: red;
+	border-spacing: 10px;
+	border: collapse;
+	font-family: monospace, times;
+	color: whitesmoke;
+}
+
+
+
+/* Background */
+body{ background-image: url(fondo.png)};  
+
+
+
+<!DOCTYPE CSS>
+
+
+/* . = class 	# = id [in line, id, class, type] */
