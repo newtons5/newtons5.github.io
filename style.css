@@ -1,0 +1,101 @@
+.logo {
+	width: 110px;
+	float: left;
+}
+
+
+.rect {
+	height: 100px;
+	width: 100%;
+	background: #ADADAD;
+	float: rigth;
+	margin: right auto;
+
+}
+
+
+.typew {
+	margin: 0 auto;
+	position: relative;
+	top: 18%;
+	text-decoration-line: underline;
+	font-family: monospace, times;
+	color: black;
+	display: block;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 18ch;
+
+
+	animation: typing 2s steps(16),
+	blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+.typewSocial {
+	margin: 0 auto;
+	position: relative;
+	top: 18%;
+	text-decoration-line: underline;
+	font-family: monospace, times;
+	color: black;
+	display: block;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 17ch;
+
+
+	animation: typing 2s steps(16),
+	blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+
+@keyframes typing {
+	from{width: 0}
+}
+
+@keyframes blink {
+	50% {border-color: transparent;}
+}
+
+
+
+.nav{
+	margin: 0 auto;
+	position: relative;
+	top: 30%;
+	font-family: monospace, times;
+	color: whitesmoke;
+	padding: 5px;
+}
+
+.block1{
+	margin: 20px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: red;
+	border-spacing: 10px;
+	border: collapse;
+	font-family: monospace, times;
+	color: whitesmoke;
+}
+
+
+
+
+body{ background-image: url(fondo.png)};  
+
+
+
+<!DOCTYPE CSS>
+
+
+/* 
+. = class 	# = id 
+1) in line
+2) id
+3) class
+4) type
+*/
