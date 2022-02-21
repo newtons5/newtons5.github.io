@@ -119,6 +119,7 @@ a.social:hover{
 	border-spacing: 10px;
 	border: collapse;
 	font-family: monospace, times;
+	font-size: 16px;
 	color: whitesmoke;
 }
 
