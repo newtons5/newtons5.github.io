@@ -1,23 +1,36 @@
-.logo {
-	width: 110px;
+/*----------HEADER - Base----------*/
+.header{
+	width: 100%;
+	height: 100px;
+	display: block;
+	background-color: #ADADAD;
+}
+
+.inner_header{
+
+	width: 1200px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: #ADADAD;
+}
+
+.logo{
+	height: 110px;
 	float: left;
 }
 
 
-
-/* Header Rectangle */
-.rect {
-	height: 100px;
-	width: 100%;
-	background: #ADADAD;
-	float: rigth;
-	margin: right auto;
+/*----------HEADER - Logo animation----------*/
+@keyframes typing {
+	from{width: 0}
 }
 
+@keyframes blink {
+	50% {border-color: transparent;}
+}
 
-
-/* Title animation */
-.typew {
+.type-animation {
 	margin: 0 auto;
 	position: relative;
 	top: 18%;
@@ -36,8 +49,6 @@
 }
 
 
-
-/* Title animation */
 .typewSocial {
 	margin: 0 auto;
 	position: relative;
@@ -57,18 +68,7 @@
 }
 
 
-
-/* Keyframes por title animations */
-@keyframes typing {
-	from{width: 0}
-}
-
-@keyframes blink {
-	50% {border-color: transparent;}
-}
-
-
-/* Navigation Class */
+/*----------HEADER - Navigation Anchors----------*/
 .nav{
 	margin: 0 auto;
 	position: relative;
@@ -78,39 +78,24 @@
 	}
 
 
-
-/* Css anchor general */
-a{ 
+.nav a {
 	text-decoration: underline; 
 	color:black; 
 }
 
-a:visited{ 
+.nav a:visited {
 	text-decoration: underline; 
 	color:black; 
 }
 
-a:hover{ 
+.nav a:hover {
 	text-decoration: none; 
 	color:black; 
 }
 
 
 
-/* Css anchor social class */
-a.social{
-	text-decoration: none; 
-	color: red;
-}
-
-a.social:hover{
-	text-decoration: underline; 
-	color: red;
-}
-
-
-/* Block of text 1 */
-.block1{
+.entry_block{
 	margin: 20px;
 	padding: 20px;
 	border-style: solid;
@@ -118,18 +103,30 @@ a.social:hover{
 	border-color: red;
 	border-spacing: 10px;
 	border: collapse;
-	font-family: monospace, times;
+	font-family: monospace;
 	font-size: 16px;
 	color: whitesmoke;
 }
 
+/*----------Socials - Navigation Anchors----------*/
+.socials a{
+	text-decoration: none; 
+	color:red; 
+}
+
+.socials a:visited {
+	text-decoration: none; 
+	color:red; 
+}
+
+.socials a:hover {
+	text-decoration: underline; 
+	color:red; 
+}
 
 
-/* Background */
+/*----------BACKGROUND----------*/
 body{ background-image: url(fondo.png)};  
-
-
-
 <!DOCTYPE CSS>
 
 
