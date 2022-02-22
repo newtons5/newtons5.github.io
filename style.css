@@ -1,0 +1,133 @@
+/*----------HEADER - Base----------*/
+.header{
+	width: 100%;
+	height: 100px;
+	display: block;
+	background-color: #ADADAD;
+}
+
+.inner_header{
+
+	width: 1200px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: #ADADAD;
+}
+
+.logo{
+	height: 110px;
+	float: left;
+}
+
+
+/*----------HEADER - Logo animation----------*/
+@keyframes typing {
+	from{width: 0}
+}
+
+@keyframes blink {
+	50% {border-color: transparent;}
+}
+
+.type-animation {
+	margin: 0 auto;
+	position: relative;
+	top: 18%;
+	text-decoration-line: underline;
+	font-family: monospace, times;
+	color: black;
+	display: block;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 18ch;
+
+
+	animation: typing 2s steps(16),
+	blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+
+.type-animation-socials {
+	margin: 0 auto;
+	position: relative;
+	top: 18%;
+	text-decoration-line: underline;
+	font-family: monospace, times;
+	color: black;
+	display: block;
+	white-space: nowrap;
+	border-right: 4px solid;
+	width: 17ch;
+
+
+	animation: typing 2s steps(16),
+	blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+
+/*----------HEADER - Navigation Anchors----------*/
+.nav{
+	margin: 0 auto;
+	position: relative;
+	top: 30%;
+	font-family: monospace, times;
+	padding: 5px;
+	}
+
+
+.nav a {
+	text-decoration: underline; 
+	color:black; 
+}
+
+.nav a:visited {
+	text-decoration: underline; 
+	color:black; 
+}
+
+.nav a:hover {
+	text-decoration: none; 
+	color:black; 
+}
+
+
+
+.entry_block{
+	margin: 20px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: red;
+	border-spacing: 10px;
+	border: collapse;
+	font-family: monospace;
+	font-size: 16px;
+	color: whitesmoke;
+}
+
+/*----------Socials - Navigation Anchors----------*/
+.socials a{
+	text-decoration: none; 
+	color:red; 
+}
+
+.socials a:visited {
+	text-decoration: none; 
+	color:red; 
+}
+
+.socials a:hover {
+	text-decoration: underline; 
+	color:red; 
+}
+
+
+/*----------BACKGROUND----------*/
+body{ background-image: url(bg.png)};  
+<!DOCTYPE CSS>
+
+
+/* . = class 	# = id [in line, id, class, type] */
